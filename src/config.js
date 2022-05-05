@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Shark Pack";
+const description = "Join the Pack & help save our Sharks! A brand new community driven collection of 10,000 randomly generated ERC-721 tokens biting into the Ethereum blockchain.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -27,12 +27,12 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Skins" },
+      { name: "Base" },
+      { name: "Mouth" },
+      { name: "Eyes" },
+      { name: "Clothes" },
+      { name: "Hats" },
     ],
   },
 ];
@@ -42,8 +42,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 600,
+  height: 600,
   smoothing: false,
 };
 
